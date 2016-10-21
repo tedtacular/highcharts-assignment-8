@@ -1,0 +1,31 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+    background: #b3dbe8;
+    color: #000;
+    font-family: Arial, Calibri, sans-serif;
+    font-size: 100%;
+    margin: 20px;
+    padding: 20px 40px;
+}
+
+article {
+  width: 500px;
+  padding: 20px 40px;
+}
+
+/* media queries */
+
+@media (max-width: 800px) {
+    body {
+      width: 100%;
+      margin: 0;
+      padding: 20px;
+        }
+    }
+
+}
